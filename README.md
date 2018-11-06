@@ -1,33 +1,27 @@
-# cpsc1301cooldem
-This is a project that makes use of Flask, Requests, and SQLite3 to develop a small web application that can makes calls to the [PokeAPI](https://pokeapi.co/), cache the response from that call, and then display the result to the user.
- 
+# cpscwebscraping
+This is a project that makes use of BeautifulSoup and Requests to develop a small tutorial on web scraping using python code. Some simple site to scrape are provided and hosted using Flask in this project.
+
 ```
-cpsc1301cooldem
+cpscwebscraping
 |   .flaskenv
+|   .gitignore
 |   config.py
 |   microblog.py
 |   README.md
-|   
+|   scraper.py
+|
 \---app
-    |   base.py
-    |   data_management.py
-    |   path.py
     |   routes.py
     |   __init__.py
-    |   
-    +---data
-    |       cache_creation.sql
-    |       data.db
-    |       
+    |
     +---static
-    |   |   Pokeball.PNG
-    |   |   
-    |   +---sprites
-    |   \---styles
-    |           style.css
-    |           
+    |       BlueEyesWhiteDragon.png
+    |       DarkMagician.png
+    |       Kuriboh.png
+    |
     \---templates
             base.html
-            pokemon.html
+            BlueEyesWhiteDragon.html
+            DarkMagician.html
+            Kuriboh.html
 ```
-"# cpscwebscraping" 
