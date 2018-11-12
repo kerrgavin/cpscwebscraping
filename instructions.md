@@ -96,7 +96,9 @@ for index in range(0, len(labels)):
 
 ```
 Again, this code will not work because there is no way to access the web pages we used in class. If you were so inclined, you are free to download the HTML files linked above and pass them in after reading them from your local machine.
-___
+
+***
+
 If you have any other questions you can contact me at kerr_gavin@columbsstate.edu.
 
 -Gavin Kerr
